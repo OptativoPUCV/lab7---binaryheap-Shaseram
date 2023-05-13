@@ -174,3 +174,14 @@ heap.c:73:14: error: unused variable ‘aux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 496545c
+Sat 13 May 2023 06:34:40 PM UTC: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:
+heap.c: In function ‘heap_pop’:
+heap.c:73:14: error: unused variable ‘aux’ [-Werror=unused-variable]
+   73 |     heapElem aux = pq->heapArray[pos];
+      |              ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+3f97716
