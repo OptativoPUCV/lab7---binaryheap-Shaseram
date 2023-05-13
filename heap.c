@@ -71,13 +71,10 @@ void heap_pop(Heap* pq){
     pq->heapArray[hijo] = aux;
 
     pos = hijo;
-    
+    hijo = (pos * 2) + 1;
     
   }
 
-
-   
-  
 }
 
 Heap* createHeap(){
