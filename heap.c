@@ -53,6 +53,7 @@ void heap_push(Heap* pq, void* data, int priority){
 void heap_pop(Heap* pq){
   if (pq->size == 0) return;
 
+  int pos = 0;
   
   
 }
