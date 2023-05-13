@@ -66,7 +66,7 @@ void heap_pop(Heap* pq){
 
     if(pq->heapArray[pos].priority > pq->heapArray[hijo].priority) break;
 
-    heapElem aux = pq->heapArray[pos];
+    
 
     pos = hijo;
     
