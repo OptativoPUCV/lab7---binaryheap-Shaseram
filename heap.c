@@ -69,6 +69,7 @@ void heap_pop(Heap* pq){
 
 
 
+    hijo = pos;
     
     
   }
