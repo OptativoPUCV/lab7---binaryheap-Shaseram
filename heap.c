@@ -54,7 +54,7 @@ void heap_pop(Heap* pq){
   if (pq->size == 0) return;
 
   int pos = 0;
-  int hijo = 1;
+  int hijo = 2;
   
   pq->size--;
 
