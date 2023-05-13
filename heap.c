@@ -58,11 +58,10 @@ void heap_pop(Heap* pq){
   int pos = 0;
   int hijo = 1;
   
-  
 
   while(hijo <= pq->size) {
 
-    if(hijo + 1 < pq->size && pq->heapArray[hijo + 1].priority > pq->heapArray[hijo].priority) hijo++;
+    if(hijo + 1 <= pq->size && pq->heapArray[hijo + 1].priority > pq->heapArray[hijo].priority) hijo++;
     
 
     if(pq->heapArray[pos].priority >= pq->heapArray[hijo].priority) break;
