@@ -52,7 +52,6 @@ void heap_push(Heap* pq, void* data, int priority){
 
 void heap_pop(Heap* pq){
   
-  
   pq->size--;
   pq->heapArray[0] = pq->heapArray[pq->size];
   
@@ -60,7 +59,7 @@ void heap_pop(Heap* pq){
   int hijo = 1;
   
 
-  while(hijo <= pq->size) {
+  while(hijo < pq->size) {
 
     if(hijo + 1 <= pq->size && pq->heapArray[hijo + 1].priority > pq->heapArray[hijo].priority) hijo++;
     
