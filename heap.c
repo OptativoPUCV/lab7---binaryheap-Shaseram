@@ -68,7 +68,7 @@ void heap_pop(Heap* pq){
 
     heapElem aux = pq->heapArray[pos];
     pq->heapArray[pos] = pq->heapArray[hijo];
-    pq->heapArray[hijo] = pq->heapArray[aux];
+    pq->heapArray[hijo] = aux;
 
     pos = hijo;
     

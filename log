@@ -238,3 +238,9 @@ heap.c:69:14: error: variable ‘aux’ set but not used [-Werror=unused-but-set
 cc1: all warnings being treated as errors
 Compilation failed
 daf84e9
+Sat 13 May 2023 06:38:20 PM UTC: 
+ heap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 45/70
+2d5a248
